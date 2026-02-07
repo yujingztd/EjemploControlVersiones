@@ -20,3 +20,10 @@ Area <- pi*r^2
 Lado <- 3
 AreaCuadrado <- Lado^2
 ```
+# Área triángulo 
+
+```{r}
+AreaTriangulo <- function(b, h){
+  return((b * h) / 2)
+}
+```
