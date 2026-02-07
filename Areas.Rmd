@@ -27,3 +27,10 @@ AreaTriangulo <- function(b, h){
   return((b * h) / 2)
 }
 ```
+# Área rectángulo 
+
+```{r}
+AreaRectangulo <- function(b, a){
+  return(b * a)
+}
+```
