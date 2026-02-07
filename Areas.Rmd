@@ -34,3 +34,10 @@ AreaRectangulo <- function(b, a){
   return(b * a)
 }
 ```
+# Área trapecio 
+
+```{r}
+AreaTrapecio <- function(b, B, h){
+  return(((b + B) * h) / 2)
+}
+```
